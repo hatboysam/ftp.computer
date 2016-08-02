@@ -1,0 +1,28 @@
+body {
+	padding-top: 60px;
+}
+
+.main {
+	text-align: center;
+}
+
+.container-narrow {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#intro {
+	margin-bottom: 50px;
+}
+
+#food {
+	opacity: 0;
+}
+
+#food-button {
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+	padding: 10px;
+	font-size: x-large;
+}
