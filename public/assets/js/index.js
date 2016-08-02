@@ -60,13 +60,13 @@ function uploadFile(file) {
 			console.log('error', error);
 
 			stopLoading();
-			alert('BRING ME A MORE PLEASING FILE.');
+			$('#alert').text('BRING ME A MORE PLEASING FILE.');
 		},
 		function() {
 			console.log('success');
 
 			stopLoading();
-			alert('I AM SATED.');
+			$('#alert').text('I AM SATED.');
 		});
 }
 

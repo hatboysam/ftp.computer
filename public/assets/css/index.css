@@ -26,3 +26,8 @@ body {
 	padding: 10px;
 	font-size: x-large;
 }
+
+#alert {
+	margin-top: 50px;
+    font-size: 20pt;
+}
